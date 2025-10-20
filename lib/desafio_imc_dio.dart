@@ -18,7 +18,7 @@ class Pessoa {
     if (imc >= 25 && imc < 30) return 'Sobrepeso';
     if (imc >= 30 && imc < 35) return 'Obesidade grau I';
     if (imc >= 35 && imc < 40) return 'Obesidade grau II(Severa)';
-    if (imc >= 40) 'Obesidade Grau III (mórbida)';
+    if (imc >= 40) return 'Obesidade Grau III (mórbida)';
     return 'Fora da classificação esperada';
   }
 }
